@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     loadData() {
-      d3.csv('/data/worlddata.csv').then(data => {
+      d3.csv('/DATAVISUALIZATION-1/data/worlddata.csv').then(data => {
         // Filter only countries where official language is Arabic.
         let filteredData = data.filter(d => {
           return d["Official language"] &&

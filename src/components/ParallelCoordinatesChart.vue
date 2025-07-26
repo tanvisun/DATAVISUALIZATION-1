@@ -28,7 +28,7 @@ export default {
   },
   methods: {
     loadData() {
-      d3.csv('/data/worlddata.csv').then(data => {
+      d3.csv('/DATAVISUALIZATION-1/data/worlddata.csv').then(data => {
         // Define the list of countries to include.
         const selectedCountries = new Set([
           "Afghanistan",

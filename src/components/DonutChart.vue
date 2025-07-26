@@ -40,7 +40,7 @@ export default {
   },
   methods: {
     loadData() {
-      d3.csv('/data/worlddata.csv')
+      d3.csv('/DATAVISUALIZATION-1/data/worlddata.csv')
         .then(data => {
           // Process columns: remove "%" and convert to float.
           data.forEach(d => {
