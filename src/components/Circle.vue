@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     drawChart() {
-      d3.csv('/data/worlddata.csv').then(data => {
+      d3.csv('/DATAVISUALIZATION-1/data/worlddata.csv').then(data => {
         // Define the official languages to include manually.
         const validLanguages = ['Arabic', 'Portuguese', 'English', 'French', 'Korean', 'Spanish'];
         

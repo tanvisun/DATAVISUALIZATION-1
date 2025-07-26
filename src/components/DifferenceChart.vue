@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     loadData() {
-      d3.csv('/data/worlddata.csv').then(data => {
+      d3.csv('/DATAVISUALIZATION-1/data/worlddata.csv').then(data => {
         // Limit to first 10 countries
         const sliced = data.slice(0, 10);
   
